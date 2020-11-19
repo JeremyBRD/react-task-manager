@@ -1,0 +1,9 @@
+.to-do-item {
+  display: flex;
+  justify-self: start;
+  align-items: center;
+}
+
+.to-do-text {
+  margin: 15px 10px;
+}
