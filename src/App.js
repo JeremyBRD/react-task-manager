@@ -1,7 +1,7 @@
+import React, { Component } from 'react';
 import './App.css';
 import TodoItem from './TodoItem/TodoItem.js';
 import todosData from "./todosData";
-import React, {Component} from 'react';
 
 
 class App extends Component {
@@ -10,7 +10,6 @@ class App extends Component {
     super();
     this.state = {
       todos: todosData
-      
     }
   }
 
